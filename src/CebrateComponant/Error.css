@@ -1,0 +1,74 @@
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.error-container {
+  background: #ffffff;
+  max-width: 500px;
+  width: 100%;
+  padding: 48px 36px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #e9edf4;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.error-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.error-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.error-description {
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.error-button {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 32px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.error-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.error-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  .error-container {
+    padding: 32px 20px;
+  }
+  .error-title {
+    font-size: 26px;
+  }
+  .error-icon {
+    font-size: 48px;
+  }
+}
